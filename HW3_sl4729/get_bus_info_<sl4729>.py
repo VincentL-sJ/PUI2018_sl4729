@@ -51,12 +51,7 @@ for vehicle in VehicleActivity:
 	print(StopStatus)
 	count += 1
 d = {'latitude':la, 'longitude':lo, 'Stop Name': sn, 'Stop Status':ss}
-dt = pd.dataFrame(d) 
+dt = pd.DataFrame(d) 
 
-# dt.to_csv('/Users/songjianli/Downloads/PUI2018/PUI2018_sl4729/Lab3_sl4729/Lab3/output.csv')
-
-# you need to change the path when you are running it on a different laptop
-path = '/Users/songjianli/Downloads/PUI2018/PUI2018_sl4729/Lab3_sl4729/Lab3/'
-
-dt.to_csv(path+file_name)
+dt.to_csv(file_name)
 
