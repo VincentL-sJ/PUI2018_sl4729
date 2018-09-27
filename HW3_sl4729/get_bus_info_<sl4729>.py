@@ -42,8 +42,12 @@ for vehicle in VehicleActivity:
 	StopName = VehicleActivity[0]['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][1]['StopPointName']
 	la.append(latitude)
 	lo.append(longitude)
-	sn.append(StopName)
-	ss.append(StopStatus)
+	if len(VehicleActivity[0]['MonitoredVehicleJourney']['OnwardCalls']) == 0:
+		sn.append('N/A')
+		ss.append('N/A')
+	else:
+		sn.append(StopName)
+		ss.append(StopStatus)
 
 	print(latitude)
 	print(longitude)
