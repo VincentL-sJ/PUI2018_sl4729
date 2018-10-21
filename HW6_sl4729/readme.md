@@ -23,12 +23,30 @@
 
 | **Statistical Analyses**	|  **IV(s)**  |  **IV type(s)** |  **DV(s)**  |  **DV type(s)**  |  **Control Var** | **Control Var type**  | **Question to be answered** | **_H0_** | **alpha** | **link to paper**| 
 |:----------:|:----------|:------------|:-------------|:-------------|:------------|:------------- |:------------------|:----:|:-------:|:-------|
-ANCOVA	| 1, the spatio-temporal supply 2,demand intensities | category | 1, driver’s response to a particular request| binary | 1, time | continuous | 	Do driver response probability significantly impacted by the spatio-temporal supply and demand intensities| the probability of the value of the nominal variable is not associated with the value of the measurement variable | 0.001 | [An empirical investigation of taxi driver response behavior to ride-hailing requests: A spatio-temporal perspective](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0198605#sec006) |
+Logistic	| 1, the spatio-temporal supply 2,demand intensities | category | 1, driver’s response to a particular request| binary | 1, time | continuous | 	Do driver response probability significantly impacted by the spatio-temporal supply and demand intensities| the probability of the value of the nominal variable is not associated with the value of the measurement variable | 0.001 | [An empirical investigation of taxi driver response behavior to ride-hailing requests: A spatio-temporal perspective](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0198605#sec006) |
   |||||||||
   
  
   
 ![main plot](journal.pone.0198605.g008.PNG)
+
+| **Statistical Analyses**	|  **IV(s)**  |  **IV type(s)** |  **DV(s)**  |  **DV type(s)**  |  **Control Var** | **Control Var type**  | **Question to be answered** | **_H0_** | **alpha** | **link to paper**| 
+|:----------:|:----------|:------------|:-------------|:-------------|:------------|:------------- |:------------------|:----:|:-------:|:-------|
+t-test	| 1, Exposure to anesthetic | category | 1, time of rats to complete a task| continuuous | 1, age 2,gender | 1,continuous 2,categoricle| 	Exposure to either anesthetic led to a significant increase in neuroapoptosis in each brain region? | Ttest<=Tcontrol | 0.001 | [Early Exposure to Volatile Anesthetics Impairs Long-Term Associative Learning and Recognition Memory](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0105340) |
+  |||||||||
+  
+ 
+  
+![main plot](journal.pone.0105340.g004.png)
+
+| **Statistical Analyses**	|  **IV(s)**  |  **IV type(s)** |  **DV(s)**  |  **DV type(s)**  |  **Control Var** | **Control Var type**  | **Question to be answered** | **_H0_** | **alpha** | **link to paper**| 
+|:----------:|:----------|:------------|:-------------|:-------------|:------------|:------------- |:------------------|:----:|:-------:|:-------|
+Correlation	| 1, Sound Exposure Level | Continuous | 1, dissolved oxygen concentration| continuuous | N/A | N/A| 	Exposure to Sound led to a significant decrease in dissolved oxygen concentration? | As sound exposure level increase, the dissolved oxygen concentration decrease | 0.01 | [Photosynthesis by marine algae produces sound, contributing to the daytime soundscape on coral reefs](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201766) |
+  |||||||||
+  
+ 
+  
+![main plot](journal.pone.0201766.g002.PNG)
 
 
 ## Assignment 3: Reproduce the analysis of the Hard to Employ program in NY:
